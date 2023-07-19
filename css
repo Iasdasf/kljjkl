@@ -1,0 +1,106 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #4f4a4a; /* Цвет фона веб-страницы */
+    color: #333333; /* Цвет основного текста */ 
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    10% {
+      color: #00aaff;
+    }
+
+    20% {
+      color: #00e1ff;
+      
+    }
+
+    30% {
+      color: #00ffee;
+      
+    }
+  
+    40% {
+      color: #00ffe1;
+      
+    }
+  
+    50% {
+      color: #00ccff;
+    }
+  
+    60% {
+      color: #00ccff;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+ @keyframes c-c {
+    0% {
+      color: #18121c;
+    }
+  
+    50% {
+      color: #5900ff;
+    }
+  
+    100% {
+      color: #d4ff00;
+    }
+}
+
+@keyframes v-v {
+    0% {
+      color: #7a2fac;
+    }
+  
+    50% {
+      color: #dedede;
+    }
+  
+    100% {
+      color: #000000;
+    }
+}
+
+
+@keyframes p-p {
+    0% {
+      color: #98b01c;
+    }
+  
+    50% {
+      color: #00ffee;
+    }
+  
+    100% {
+      color: #8000ff;
+    }
+}
+
+ h1 {
+    animation: color-change 3s infinite; 
+ }
+    
+
+h2 {
+    animation: c-c 1s infinite;
+
+}
+
+p {
+    animation: v-v 1s infinite;
+  
+}
+
+ul{
+    animation: p-p 1s infinite;
+
+}
